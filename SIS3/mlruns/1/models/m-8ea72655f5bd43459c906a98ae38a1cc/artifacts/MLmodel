@@ -1,0 +1,23 @@
+artifact_path: "file:c:/Users/buesh/OneDrive/\u0420\u0430\u0431\u043E\u0447\u0438\u0439\
+  \ \u0441\u0442\u043E\u043B/\u043A\u043E\u0434\u044B/Maching Learning/SIS3/mlruns/1/models/m-8ea72655f5bd43459c906a98ae38a1cc/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-8ea72655f5bd43459c906a98ae38a1cc
+model_size_bytes: 2741674
+model_uuid: m-8ea72655f5bd43459c906a98ae38a1cc
+prompts: null
+utc_time_created: '2026-04-24 17:01:49.172682'
